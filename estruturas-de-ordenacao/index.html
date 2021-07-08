@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Estruturas de Ordenação</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>  
+    
+    <section>
+        <div id="header">Estruturas de Ordenação</div>
+        <div id="div-principal">
+            <p>Escolha a estrutura de ordenação desejada: 
+                <select name="estrutura" id="selectValue">
+                    <option value="none">Selecione</option>
+                    <option value="bubble">Bubble sort</option>
+                    <option value="selection">Selection sort</option>
+                    <option value="heap">*Heapsort</option>
+                    <option value="mage">*Mage sort</option>
+                    <option value="quick">*Quick sort</option>
+                </select> 
+            </p>
+            <p><input type="number" id="inputNumber"></p>
+            <p>
+                <input type="button" class="button" value="Adicionar" onclick="adicionar()">
+                <input type="button" class="button" value="Remover" onclick="remover()">
+                <input type="button" class="button" value="Ordenar" onclick="ordenar(array)">
+            </p>
+            <p id="myArray"></p>
+            <hr>
+        </div>
+        <div id="divres">
+            <p id="res"></p>
+        </div>
+        <div id="footer">by: Lucas Manoel</div>
+    </section>
+    <script src="scripts/script.js"></script>
+</body>
+</html>
