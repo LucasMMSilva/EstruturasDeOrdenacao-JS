@@ -8,7 +8,7 @@
   - Selection Sort
 
   <br>
-<h3>A fazer</h3>
+<h3>Afazer</h3>
 
   - Heap sort
   - Mage sort
